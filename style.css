@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-left: 1em;
+}
+
+
+.sfondo {
+    background-image: url(./img/pattern.png);
+    background-color: rgb(40, 126, 238);
+    background-size: 25%;
+    height: 6em;
+}
+
+#logo {
+    width: 10em;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+h1 {
+    margin-top: 1em;
+}
+
+h4,
+h6 {
+    color: rgb(117, 114, 114);
+}
+
+h6 {
+    margin-bottom: 2em;
+}
+
+.didascalia {
+    font-size: 75%;
+}
+
+main {
+    margin: 1em;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+.lista {
+    margin: 1em;
+
+}
+
+thead {
+    background-color: rgb(11, 76, 218);
+    color: white;
+}
+
+tbody {
+    background-color: aqua;
+}
+
+.bianco {
+    background-color: white;
+}
+
+footer {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.monitor {
+    background-image: url(./img/monitor.jpg);
+    height: 200px;
+    width: 311px;
+    color: white;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.graph {
+    background-image: url(./img/graph.jpg);
+    height: 200px;
+    width: 311px;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 2em;
+
+}
+
+table {
+    margin-bottom: 1em;
+    width: 70%;
+}
+
+.tablewidth1 {
+    width: 25%;
+
+}
